@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weartake</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="container">
+            <h1 class="title-page">Weartake</h1>
+            <nav>
+                <ul class="container nav-container">
+                    <li><a href="#" class="nav-link">Todos</a></li>
+                    <li><a href="#" class="nav-link">Acessórios</a></li>
+                    <li><a href="#" class="nav-link">Calçados</a></li>
+                    <li><a href="#" class="nav-link">Camisetas</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container principal">
+            <main class="itens-area">
+                <nav>
+                    <ul class="container itens">
+                        <li class="container product-card">
+                            <div class="container background-img">
+                                <img src="img/jaqueta.svg" alt="Jaqueta preta" class="product-img">
+                            </div>
+                            <div class="container product-descripton">
+                                <p class="product-category">Camisetas</p>
+                                <h2 class="product-title">Lightweight Jacket</h2>
+                                <p class="product-details">Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
+                                <p class="product-price">R$100.00</p>
+                                <button class="button-shopping">Adicionar ao carrinho</button>
+                            </div>
+                        </li>
+                        <li class="container product-card">
+                            <div class="container background-img">
+                                <img src="img/gorro.svg" alt="Gorro preto" class="product-img">
+                            </div>
+                            <div class="container product-descripton">
+                                <p class="product-category">Acessórios</p>
+                                <h2 class="product-title">Black Hat</h2>
+                                <p class="product-details">O gorro Next.js chegou! esta beldade bordada tem um ajuste confortável que garante que...</p>
+                                <p class="product-price">R$100.00</p>
+                                <button class="button-shopping">Adicionar ao carrinho</button>
+                            </div>
+                        </li>
+                        <li class="container product-card">
+                            <div class="container background-img">
+                                <img src="img/mascara.svg" alt="Máscara preta" class="product-img">
+                            </div>
+                            <div class="container product-descripton">
+                                <p class="product-category">Acessórios</p>
+                                <h2 class="product-title">Mask</h2>
+                                <p class="product-details">Esta máscara facial durável é feita de duas camadas de tecido tratado e possui presilhas...</p>
+                                <p class="product-price">R$40.00</p>
+                                <button class="button-shopping">Adicionar ao carrinho</button>
+                            </div>
+                        </li>
+                        <li class="container product-card">
+                            <div class="container background-img">
+                                <img src="img/camiseta_preta.svg" alt="Camiseta Preta" class="product-img">
+                            </div>
+                            <div class="container product-descripton">
+                                <p class="product-category">Camisetas</p>
+                                <h2 class="product-title">T-Shirt</h2>
+                                <p class="product-details">Esta tshirt é imprescindível no seu guarda-roupa, combinando caimento intemporal de...</p>
+                                <p class="product-price">R$100.00</p>
+                                <button class="button-shopping">Adicionar ao carrinho</button>
+                            </div>
+                        </li>
+                        <li class="container product-card">
+                            <div class="container background-img">
+                                <img src="img/camiseta_branca.svg" alt="Camiseta branca" class="product-img">
+                            </div>
+                            <div class="container product-descripton">
+                                <p class="product-category">Camisetas</p>
+                                <h2 class="product-title">Short-Sleeve T-Shirt</h2>
+                                <p class="product-details">Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um mais fino...</p>
+                                <p class="product-price">R$100.00</p>
+                                <button class="button-shopping">Adicionar ao carrinho</button>
+                            </div>
+                        </li>
+                        <li class="container product-card">
+                            <div class="container background-img">
+                                <img src="img/moletom.svg" alt="Moletom preto" class="product-img">
+                            </div>
+                            <div class="container product-descripton">
+                                <p class="product-category">Camisetas</p>
+                                <h2 class="product-title">Champion Packable Jacket</h2>
+                                <p class="product-details">Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta de poilést...</p>
+                                <p class="product-price">R$100.00</p>
+                                <button class="button-shopping">Adicionar ao carrinho</button>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </main>
+            <aside class="container shopping-area">
+                <form class="container shopping">
+                    <label for="search"></label>
+                    <input type="text" id="search" placeholder="Digite aqui sua pesquisa">
+                    <button type="button" class="add-shop">Pesquisar</button>
+                </form>
+                <section class="container shop">
+                    <h3 class="shopping-title">Carrinho de compras</h3>
+                    <div class="container shopping-cart">
+                        <p class="initial-text-cart">Carrinho vazio</p>
+                        <p class="sugestion-test-cart">Adicione itens</p>
+                    </div>
+                    <div class="container total-shopping hide">
+
+                    </div>
+                </section>
+            </aside>
+        </div>
+
+        <script src="js/database.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
