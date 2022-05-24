@@ -68,7 +68,7 @@ function template(obj,index){
     let shop          = document.createElement("div")
         
     //Adicionar classes
-    shoppingCart.style.height = "100%"
+    shoppingCart.style.justifyContent = "flex-start"
     shop.classList.add("container", "product-cart")
 
     //Adicionar conteudo
@@ -134,7 +134,6 @@ function removeItem(event){
         //retirar o item que clicamos da lista
         let index = button.id
         list.splice(index,1)
-        console.log(list)
 
         //listar itens que sobraram
        listItem(list)
@@ -142,7 +141,7 @@ function removeItem(event){
        //Voltar ao carrinho vazio
        if(list.length == 0){
 
-        shoppingCart.style.height = "300px"
+        shoppingCart.style.justifyContent = "center"
 
         shoppingCart.innerHTML = `
             <p class="initial-text-cart">Carrinho vazio</p>
